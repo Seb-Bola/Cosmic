@@ -1,0 +1,34 @@
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyles = createGlobalStyle`
+
+html, body, div, span, applet, object, iframe,
+    blockquote, pre, 
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center, p, div, img, textarea,
+    dl, dt, dd, ol, ul, li, 
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: center;
+        font-family: sans-serif;
+        text-decoration: none;
+        text-decoration-style: none;
+        background-color: none;
+        list-style-type:none;
+        color: inherit;
+        font-size: 20px;
+
+    }`;
+
+export default GlobalStyles;
