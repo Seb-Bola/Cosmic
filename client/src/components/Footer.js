@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { useNavigate, NavLink } from "react-router-dom";
 import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaSoundcloud } from "react-icons/fa";
+import { FestivalTitle, CosmicTitle } from "../styledComponents";
 
 const Footer = () => {
   const scrollTop = (event) => {
@@ -40,7 +41,8 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <p>Cosmic NRG Festival</p>
+          <CosmicTitle>Cosmic NRG</CosmicTitle>
+          <FestivalTitle>Music Festival</FestivalTitle>
         </div>
         <ul>
           <FooterListItems>

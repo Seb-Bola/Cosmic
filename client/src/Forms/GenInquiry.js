@@ -10,7 +10,7 @@ import {
   InputText,
   CharLimit,
   Return,
-} from "../NavBarElements/styledComponents";
+} from "../styledComponents";
 
 const GeneralInquiry = ({
   handleChange,
