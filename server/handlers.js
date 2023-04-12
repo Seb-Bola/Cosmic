@@ -1,7 +1,7 @@
 const path = require("path");
 const { MongoClient } = require("mongodb");
 const { v4: uuidv4 } = require("uuid");
-require("dotenv").config({ path: "../.env" });
+require("dotenv").config();
 const { MONGO_URI } = process.env;
 const options = {
   useNewUrlParser: true,
